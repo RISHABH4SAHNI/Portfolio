@@ -1,5 +1,8 @@
 # Dependencies
 node_modules/
+
+.next/
+out/
 *.log
 
 # Next.js
