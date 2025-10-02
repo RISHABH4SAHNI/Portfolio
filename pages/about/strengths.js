@@ -47,6 +47,21 @@ export default function Strengths() {
       icon: FaHeart,
       title: "Passion for Quality",
       description: "Committed to delivering high-quality work with attention to detail, testing, and continuous improvement."
+    },
+    {
+      icon: FaBrain,
+      title: "Analytical Thinking",
+      description: "Excel at dissecting complex data and systems—from financial correlations to AI model optimization—for actionable insights and strategic decisions."
+    },
+    {
+      icon: FaRocket,
+      title: "Impact-Driven Innovation",
+      description: "Focused on building scalable solutions with real-world value, like AI for healthcare and assistive tech for visually impaired users."
+    },
+    {
+      icon: FaUsers,
+      title: "Collaborative Leadership",
+      description: "Thrived in research teams, startups, and enterprises by mentoring, strategizing partnerships, and driving cross-functional projects."
     }
   ]
 
