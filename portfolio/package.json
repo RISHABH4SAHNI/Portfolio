@@ -1,0 +1,32 @@
+{
+  "name": "rishabh-sahni-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "critters": "^0.0.23",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.16",
+    "eslint": "8.52.0",
+    "eslint-config-next": "13.5.6",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.3.5"
+  },
+  "description": "Personal portfolio website for Rishabh Sahni",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rishabh Sahni",
+  "license": "ISC"
+}
