@@ -1,0 +1,24 @@
+[build]
+  publish = "portfolio/out"
+  command = "cd portfolio && npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_USE_PRODUCTION = "false"
+
+[dev]
+  command = "cd portfolio && npm run dev"
+  port = 3000
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
