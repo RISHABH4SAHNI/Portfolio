@@ -80,14 +80,32 @@ export default function About() {
               <h3 className="text-2xl font-bold text-white mb-4">Education</h3>
               <div className="text-gray-300">
                 <div className="mb-6">
-                  <p className="font-semibold text-lg">Bachelor of Engineering, Computer Science</p>
+                  <p className="font-semibold text-lg">Bachelor of Engineering, Computer Science 
+                    <span className="text-green-400 font-bold ml-2">8.5/10 CGPA</span>
+                  </p>
                   <p className="text-blue-400 font-medium">BITS Pilani Pilani Campus</p>
                   <p className="text-sm text-gray-400">2021-2025</p>
                   <p className="text-sm text-gray-400">Leadership experience in Student Union</p>
                 </div>
-                <div>
-                  <p className="font-semibold text-lg">Minor in Finance</p>
+                <div className="mb-6">
+                  <p className="font-semibold text-lg">Minor in Finance 
+                    <span className="text-green-400 font-bold ml-2">8.6/10 CGPA</span>
+                  </p>
                   <p className="text-blue-400 font-medium">BITS Pilani</p>
+                </div>
+                <div className="mb-4">
+                  <p className="font-semibold text-lg">Class 12 (Senior Secondary) 
+                    <span className="text-yellow-400 font-bold ml-2">97%</span>
+                  </p>
+                  <p className="text-blue-400 font-medium">Modern Vidya Niketan, Sector 17</p>
+                  <p className="text-sm text-gray-400">2021</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-lg">Class 10 (Secondary) 
+                    <span className="text-yellow-400 font-bold ml-2">97.6%</span>
+                  </p>
+                  <p className="text-blue-400 font-medium">Modern Vidya Niketan, Sector 17</p>
+                  <p className="text-sm text-gray-400">2019</p>
                 </div>
               </div>
             </div>
@@ -108,6 +126,34 @@ export default function About() {
                 <p>• <span className="text-orange-400">Microsoft Certified Systems Administrator: Machine Learning</span></p>
                 <p className="text-sm text-gray-400 ml-4">DevTown & Microsoft</p>
                 <p className="text-sm text-gray-400 ml-4">Skills: Python, OpenCV, Machine Learning</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Test Scores & Academic Achievements */}
+          <div className="glass-card p-8">
+            <h3 className="text-2xl font-bold text-white mb-6">Test Scores & Academic Achievements</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg p-6">
+                  <h4 className="text-xl font-bold text-white mb-2">JEE Advanced</h4>
+                  <div className="text-2xl font-bold text-yellow-300 mb-1">Rank: 3193</div>
+                  <div className="text-sm text-gray-200">Oct 2021</div>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-gradient-to-r from-green-500 to-teal-500 rounded-lg p-6">
+                  <h4 className="text-xl font-bold text-white mb-2">BITSAT</h4>
+                  <div className="text-2xl font-bold text-yellow-300 mb-1">390/450</div>
+                  <div className="text-sm text-gray-200">Aug 2021</div>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-gradient-to-r from-pink-500 to-red-500 rounded-lg p-6">
+                  <h4 className="text-xl font-bold text-white mb-2">JEE Mains</h4>
+                  <div className="text-2xl font-bold text-yellow-300 mb-1">99.876%ile</div>
+                  <div className="text-sm text-gray-200">AIR: 1618 • Feb 2021</div>
+                </div>
               </div>
             </div>
           </div>
