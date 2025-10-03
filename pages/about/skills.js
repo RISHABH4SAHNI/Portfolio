@@ -5,10 +5,14 @@ import Header from '../../components/Header'
 import { 
   SiJavascript, SiReact, SiNodedotjs, SiPython, SiNextdotjs,
   SiTailwindcss, SiMongodb, SiPostgresql, SiGit, SiDocker,
-  SiAws, SiExpress, SiTypescript, SiRedis, SiPytorch, SiScikitlearn,
-  SiPandas, SiNumpy, SiMatplotlib, SiTensorflow, SiR, SiCsharp,
+  SiAmazonaws, SiExpress, SiTypescript, SiRedis, SiPytorch, SiScikitlearn,
+  SiPandas, SiNumpy, SiTensorflow, SiR, SiCsharp,
   SiSqlite, SiAlteryx, SiPowerbi, SiYolo
 } from 'react-icons/si'
+import { 
+  FaServer, FaDatabase, FaChartBar, FaCogs, FaMicrosoft, 
+  FaJira, FaRobot, FaChart 
+} from 'react-icons/fa'
 
 export default function Skills() {
   const skillCategories = [
@@ -20,7 +24,7 @@ export default function Skills() {
         { name: "LLMs & NLP", icon: SiTensorflow, level: 85 }, // Using TensorFlow icon as proxy for ML frameworks
         { name: "Scikit-Learn", icon: SiScikitlearn, level: 80 },
         { name: "YOLO & Computer Vision", icon: SiYolo, level: 75 },
-        { name: "ROS & MLOps", icon: SiRos, level: 75 } // No icon, text-based
+        { name: "ROS & MLOps", icon: FaRobot, level: 75 }
       ]
     },
     {
@@ -28,7 +32,7 @@ export default function Skills() {
       skills: [
         { name: "Pandas", icon: SiPandas, level: 90 },
         { name: "NumPy", icon: SiNumpy, level: 90 },
-        { name: "Matplotlib", icon: SiMatplotlib, level: 90 },
+        { name: "Matplotlib", icon: FaChartBar, level: 90 },
         { name: "R & RStudio", icon: SiR, level: 75 },
         { name: "SQL", icon: SiSqlite, level: 85 },
         { name: "Power BI & Alteryx", icon: SiPowerbi, level: 80 }
@@ -48,10 +52,10 @@ export default function Skills() {
     {
       title: "Backend & Databases",
       skills: [
-        { name: "REST APIs & Async/Await", icon: FaServer, level: 85 }, // Text-based
+        { name: "REST APIs & Async/Await", icon: FaServer, level: 85 },
         { name: "MongoDB", icon: SiMongodb, level: 80 },
         { name: "PostgreSQL", icon: SiPostgresql, level: 80 },
-        { name: "Data Pipelines", icon: FaDatabase, level: 85 }, // Text-based
+        { name: "Data Pipelines", icon: FaDatabase, level: 85 },
         { name: "C (Data Structures)", icon: SiCsharp, level: 70 } // Using C# icon as proxy for C
       ]
     },
@@ -60,20 +64,20 @@ export default function Skills() {
       skills: [
         { name: "Git", icon: SiGit, level: 90 },
         { name: "Docker", icon: SiDocker, level: 85 },
-        { name: "AWS (Textract)", icon: SiAws, level: 85 },
+        { name: "AWS (Textract)", icon: SiAmazonaws, level: 85 },
         { name: "Redis", icon: SiRedis, level: 80 },
-        { name: "Jira & RPA", icon: SiJira, level: 80 }, // Text-based
-        { name: "Financial Modeling (Excel)", icon: SiMicrosoft, level: 90 } // Text-based
+        { name: "Jira & RPA", icon: FaJira, level: 80 },
+        { name: "Financial Modeling (Excel)", icon: FaMicrosoft, level: 90 }
       ]
     },
     {
       title: "Finance & Domain Expertise",
       skills: [
-        { name: "Financial Analysis", icon: FaChartBar, level: 80 }, // Text-based
-        { name: "Quantitative Analytics", icon: FaChartBar, level: 85 }, // Text-based
-        { name: "Stock Market & Hedging", icon: FaChartBar, level: 85 }, // Text-based
-        { name: "WACC/ROCE/ROIC", icon: FaChartBar, level: 80 }, // Text-based
-        { name: "Investment Analysis", icon: FaChartBar, level: 80 } // Text-based
+        { name: "Financial Analysis", icon: FaChartBar, level: 80 },
+        { name: "Quantitative Analytics", icon: FaCogs, level: 85 },
+        { name: "Stock Market & Hedging", icon: FaChart, level: 85 },
+        { name: "WACC/ROCE/ROIC", icon: FaChartBar, level: 80 },
+        { name: "Investment Analysis", icon: FaChartBar, level: 80 }
       ]
     }
   ]
