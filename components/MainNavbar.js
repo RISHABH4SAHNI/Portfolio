@@ -21,7 +21,7 @@ const MainNavbar = ({ activeItem }) => {
         <div className="flex items-center justify-between">
           {/* Logo/Brand */}
           <Link href="/" className="text-2xl font-bold text-white">
-            RS
+            Rishabh Sahni
           </Link>
 
           {/* Desktop Navigation */}

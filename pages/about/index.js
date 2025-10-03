@@ -80,9 +80,8 @@ export default function About() {
               <h3 className="text-2xl font-bold text-white mb-4">Education</h3>
               <div className="text-gray-300">
                 <div className="mb-6">
-                  <p className="font-semibold text-lg">Bachelor of Engineering Computer Science</p>
-                  <p className="text-blue-400 font-medium">BITS Pilani</p>
-                  <p className="text-sm text-gray-400">BITS Pilani Pilani Campus</p>
+                  <p className="font-semibold text-lg">Bachelor of Engineering, Computer Science</p>
+                  <p className="text-blue-400 font-medium">BITS Pilani Pilani Campus</p>
                   <p className="text-sm text-gray-400">2021-2025</p>
                   <p className="text-sm text-gray-400">Leadership experience in Student Union</p>
                 </div>
@@ -95,10 +94,20 @@ export default function About() {
             <div className="glass-card p-6">
               <h3 className="text-2xl font-bold text-white mb-4">Certifications</h3>
               <div className="text-gray-300 space-y-2">
-                <p>• <span className="text-purple-400">Private Equity & Venture Capital</span></p>
+                <p>• <span className="text-purple-400">Open Source Models with Hugging Face</span></p>
+                <p className="text-sm text-gray-400 ml-4">DeepLearning.AI • Aug 2025</p>
+                
+                <p>• <span className="text-blue-400">Certified Valuation Analyst (CVA)</span></p>
                 <p className="text-sm text-gray-400 ml-4">Bocconi University</p>
-                <p>• <span className="text-blue-400">Advanced Valuation & Strategy</span></p>
+                <p className="text-sm text-gray-400 ml-4">Mar 2024 • Skills: Private Equity, Venture Capital, Business Valuation</p>
+                
+                <p>• <span className="text-green-400">Financial Modelling Valuation Analyst</span></p>
                 <p className="text-sm text-gray-400 ml-4">Erasmus School of Economics</p>
+                <p className="text-sm text-gray-400 ml-4">Mar 2024 • Skills: Financial Modeling, Financial Analysis</p>
+                
+                <p>• <span className="text-orange-400">Microsoft Certified Systems Administrator: Machine Learning</span></p>
+                <p className="text-sm text-gray-400 ml-4">DevTown & Microsoft</p>
+                <p className="text-sm text-gray-400 ml-4">Skills: Python, OpenCV, Machine Learning</p>
               </div>
             </div>
           </div>

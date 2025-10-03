@@ -20,38 +20,38 @@ export default function Skills() {
         { name: "LLMs & NLP", icon: SiTensorflow, level: 85 }, // Using TensorFlow icon as proxy for ML frameworks
         { name: "Scikit-Learn", icon: SiScikitlearn, level: 80 },
         { name: "YOLO & Computer Vision", icon: SiYolo, level: 75 },
-        { name: "ROS & MLOps", level: 75 } // No icon, text-based
+        { name: "ROS & MLOps", icon: SiRos, level: 75 } // No icon, text-based
       ]
     },
     {
       title: "Data Science & Analytics",
       skills: [
-        { name: "Pandas", icon: SiPandas, level: 85 },
-        { name: "NumPy", icon: SiNumpy, level: 85 },
-        { name: "Matplotlib", icon: SiMatplotlib, level: 80 },
+        { name: "Pandas", icon: SiPandas, level: 90 },
+        { name: "NumPy", icon: SiNumpy, level: 90 },
+        { name: "Matplotlib", icon: SiMatplotlib, level: 90 },
         { name: "R & RStudio", icon: SiR, level: 75 },
-        { name: "SQL", icon: SiSqlite, level: 80 },
-        { name: "Power BI & Alteryx", icon: SiPowerbi, level: 75 }
+        { name: "SQL", icon: SiSqlite, level: 85 },
+        { name: "Power BI & Alteryx", icon: SiPowerbi, level: 80 }
       ]
     },
     {
       title: "Frontend & Full-Stack",
       skills: [
-        { name: "JavaScript", icon: SiJavascript, level: 90 },
-        { name: "TypeScript", icon: SiTypescript, level: 85 },
-        { name: "React.js", icon: SiReact, level: 90 },
+        { name: "JavaScript", icon: SiJavascript, level: 80 },
+        { name: "TypeScript", icon: SiTypescript, level: 80 },
+        { name: "React.js", icon: SiReact, level: 80 },
         { name: "Next.js", icon: SiNextdotjs, level: 85 },
-        { name: "Tailwind CSS", icon: SiTailwindcss, level: 90 },
+        { name: "Tailwind CSS", icon: SiTailwindcss, level: 70 },
         { name: "Node.js & Express", icon: SiNodedotjs, level: 85 }
       ]
     },
     {
       title: "Backend & Databases",
       skills: [
-        { name: "REST APIs & Async/Await", level: 85 }, // Text-based
+        { name: "REST APIs & Async/Await", icon: FaServer, level: 85 }, // Text-based
         { name: "MongoDB", icon: SiMongodb, level: 80 },
-        { name: "PostgreSQL", icon: SiPostgresql, level: 75 },
-        { name: "Data Pipelines", level: 80 }, // Text-based
+        { name: "PostgreSQL", icon: SiPostgresql, level: 80 },
+        { name: "Data Pipelines", icon: FaDatabase, level: 85 }, // Text-based
         { name: "C (Data Structures)", icon: SiCsharp, level: 70 } // Using C# icon as proxy for C
       ]
     },
@@ -59,21 +59,21 @@ export default function Skills() {
       title: "Tools & DevOps",
       skills: [
         { name: "Git", icon: SiGit, level: 90 },
-        { name: "Docker", icon: SiDocker, level: 75 },
-        { name: "AWS (Textract)", icon: SiAws, level: 70 },
-        { name: "Redis", icon: SiRedis, level: 70 },
-        { name: "Jira & RPA", level: 75 }, // Text-based
-        { name: "Financial Modeling (Excel)", level: 80 } // Text-based
+        { name: "Docker", icon: SiDocker, level: 85 },
+        { name: "AWS (Textract)", icon: SiAws, level: 85 },
+        { name: "Redis", icon: SiRedis, level: 80 },
+        { name: "Jira & RPA", icon: SiJira, level: 80 }, // Text-based
+        { name: "Financial Modeling (Excel)", icon: SiMicrosoft, level: 90 } // Text-based
       ]
     },
     {
       title: "Finance & Domain Expertise",
       skills: [
-        { name: "Financial Analysis", level: 80 }, // Text-based
-        { name: "Quantitative Analytics", level: 75 }, // Text-based
-        { name: "Stock Market & Hedging", level: 75 }, // Text-based
-        { name: "WACC/ROCE/ROIC", level: 70 }, // Text-based
-        { name: "Investment Analysis", level: 70 } // Text-based
+        { name: "Financial Analysis", icon: FaChartBar, level: 80 }, // Text-based
+        { name: "Quantitative Analytics", icon: FaChartBar, level: 85 }, // Text-based
+        { name: "Stock Market & Hedging", icon: FaChartBar, level: 85 }, // Text-based
+        { name: "WACC/ROCE/ROIC", icon: FaChartBar, level: 80 }, // Text-based
+        { name: "Investment Analysis", icon: FaChartBar, level: 80 } // Text-based
       ]
     }
   ]
